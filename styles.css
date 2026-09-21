@@ -54,6 +54,7 @@ h3 { font-size: 1.125rem; line-height: 1.5; font-weight: 600; letter-spacing: -.
 .publication > p:not(.authorship) { color: var(--muted); }
 .text-link { display: inline-flex; align-items: center; gap: 10px; font-size: .9375rem; font-weight: 500; padding-block: 5px; }
 .publication .text-link { margin-top: 10px; }
+.publication-links { display: flex; flex-wrap: wrap; gap: 0 24px; }
 .experience + .experience { margin-top: 30px; padding-top: 30px; border-top: 1px solid var(--line); }
 .experience-top { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; margin-bottom: 8px; }
 .role { font-size: .8125rem; font-weight: 500; color: var(--blue); }
